@@ -18,8 +18,8 @@ while(1):
     elif style == "L" or style == "l":
         demo.lists()
         continue
-
-    menu = input("\n\nE = encrypt \n\nD = Decrypt \n\nL = List \n\nQ = Quit \n\nPlease input the funtoin u want to use : ")
+ 
+    menu = input("\n\nE (Encrypt) \n\nD (Decrypt) \n\nL (List) \n\nQ (Quit) \n\nPlease input the funtoin u want to use : ")
     if menu == "E" or menu == "e":
         msg = input("Please input your msg : ")
         demo.Encrypt(msg)
@@ -28,7 +28,6 @@ while(1):
         ans = input("Please input your ans : ")
         demo.Decrypt(ans)
 
-    
 
     if menu == "Q" or menu == "q":
         break
